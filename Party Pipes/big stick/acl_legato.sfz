@@ -1,0 +1,65 @@
+// Bent Basket legato sample handler. Breath optimized.
+  <group> key=39 lokey=34
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-39-d#1_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-39-d#1_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-39-d#1_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=40 hikey=41
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-40-e1_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-40-e1_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-40-e1_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=43 lokey=42 hikey=44
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-43-g1_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-43-g1_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-43-g1_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=45 hikey=46
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-45-a1_v1.ogg ampeg_attack=0.1 offset=22050 
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-45-a1_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-45-a1_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=48 lokey=47 hikey=49
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-48-c2_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-48-c2_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-48-c2_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=51 lokey=50 hikey=52
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-51-d#2_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-51-d#2_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-51-d#2_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=54 lokey=53 hikey=55
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-54-f#2_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-54-f#2_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-54-f#2_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=57 lokey=56 hikey=58
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-57-a2_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-57-a2_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-57-a2_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=60 lokey=59 hikey=61
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-60-c3_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-60-c3_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-60-c3_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=63 lokey=62 hikey=64
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-63-d#3_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-63-d#3_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-63-d#3_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=66 lokey=65 hikey=67
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-66-f#3_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-66-f#3_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-66-f#3_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=69 lokey=68 hikey=70
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-69-a3_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-69-a3_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-69-a3_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=72 lokey=71 hikey=73
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-72-c4_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-72-c4_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-72-c4_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=75 lokey=74 hikey=76
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-75-d#4_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-75-d#4_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-75-d#4_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=78 lokey=77 hikey=79
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-78-f#4_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-78-f#4_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-78-f#4_v3.ogg ampeg_attack=0.1 offset=22050
+  <group> key=81 lokey=80 hikey=82
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=big stick/altoclar-81-a4_v1.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=big stick/altoclar-81-a4_v2.ogg ampeg_attack=0.1 offset=22050
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=big stick/altoclar-81-a4_v3.ogg ampeg_attack=0.1 offset=22050

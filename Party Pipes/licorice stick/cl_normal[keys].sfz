@@ -1,0 +1,77 @@
+// Clarinet Charms core sample picker. B♭ instrument, as sampled.
+  <group> key=47 lokey=45 hikey=48 // Instrument extended to "low C" +1 (to cover A Clar).
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-47-B1_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-47-B1_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-47-B1_v3.ogg
+  <group> key=50 lokey=49 hikey=51
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-50-D2_v1.ogg 
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-50-D2_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-50-D2_v3.ogg
+  <group> key=53 lokey=52 hikey=54
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-53-F2_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-53-F2_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-53-F2_v3.ogg
+  <group> key=55 hikey=56
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-55-G2_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-55-G2_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-55-G2_v3.ogg
+  <group> key=58 lokey=57 hikey=59
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-58-A#2_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-58-A#2_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-58-A#2_v3.ogg
+  <group> key=60 hikey=61
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-60-C3_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-60-C3_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-60-C3_v3.ogg
+  <group> key=62 hikey=63
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-62-D3_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-62-D3_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-62-D3_v3.ogg
+  <group> key=65 lokey=64
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-65-F3_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-65-F3_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-65-F3_v3.ogg
+  <group> key=67 lokey=66
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-67-G3_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-67-G3_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-67-G3_v3.ogg
+  <group> key=68
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-68-G#3_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-68-G#3_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-68-G#3_v3.ogg
+  <group> key=69 hikey=70
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-69-A3_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-69-A3_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-69-A3_v3.ogg
+  <group> key=72 lokey=71 hikey=73
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-72-C4_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-72-C4_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-72-C4_v3.ogg
+  <group> key=74 hikey=75
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-74-D4_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-74-D4_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-74-D4_v3.ogg
+  <group> key=77 lokey=76 hikey=78
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-77-F4_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-77-F4_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-77-F4_v3.ogg
+  <group> key=79 hikey=80
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-79-G4_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-79-G4_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-79-G4_v3.ogg
+  <group> key=82 lokey=81
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-82-A#4_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-82-A#4_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-82-A#4_v3.ogg
+  <group> key=84 lokey=83 hikey=85
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-84-C5_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-84-C5_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-84-C5_v3.ogg
+  <group> key=87 lokey=86 hikey=88
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-87-D#5_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-87-D#5_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-87-D#5_v3.ogg
+  <group> key=89 hikey=94
+    <region> amplitude_cc131=100 amplitude_curvecc131=8 sample=licorice stick/clarinet-89-F5_v1.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=9 sample=licorice stick/clarinet-89-F5_v2.ogg
+    <region> amplitude_cc131=100 amplitude_curvecc131=10 sample=licorice stick/clarinet-89-F5_v3.ogg

@@ -1,0 +1,110 @@
+// Paper Lion by Malaclypse the Younger, mal2fnord@gmail.com
+// This is heavily catered toward EWI and/or a keyboard plus breath controller.
+// All samples are performed by me buzzing on various plastic and cardboard tubes.
+// (This is a PDQ Bach instrument known as a "windbreaker".)
+// 
+// The instrument is made of one pipe per note and the player must move between
+// them, so there is no legato mode.
+
+// --------------------------Begin boilerplate license--------------------------
+// MIT License 
+// 
+// Permission is hereby granted, free of charge, to any person obtaining a copy 
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies ofthe Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions: 
+// 
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software. Additionally, all 
+// alterations which are distributed are to be attributed to the person or
+// organization making them.
+// 
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+// ---------------------------End boilerplate license---------------------------
+
+// The generic insert that goes in all of the clarinet packages.
+// Curve 0 is linear, from 0 to 1. v000=0 v127=1
+// Curve 1 is bipolar, from -1 to 1.  v000=-1 v127=1
+// Curve 2 is inverted linear, from 1 to 0. v000=1 v127=0
+// Curve 3 bipolar inverted, from 1 to -1. v000=1 v127=-1
+// Curve 4 concave (square the Curve 0 value).
+// Curve 5 is Xfin power curve (square root of Curve 0 value).
+// Curve 6 is Xfout power curve (square root of Curve 2 value).
+<curve> curve_index=7 // Parabolic, scales by .9295 down to v001. Good for max attack 30 seconds.
+// The right curve makes controls feel fluid but precise. Tiny attack left at v0 to soften clicks.
+// This will NOT be audible if using this as a Decay curve, it's 10 samples or something similar.
+v000=.0000005 v001=.0001 v003=.000116 v005=.000134 v007=.000155 v009=.000179 v11=.000207
+v013=.00024 v015=.000278 v017=.000322 v019=.000372 v021=.000431 v023=.000499
+v025=.000577 v027=.000668 v029=.000773 v031=.000895 v033=.00104 v035=.0012
+v037=.00139 v039=.00161 v041=.00186 v043=.00215 v045=.00249 v047=.00288 v049=.00334
+v051=.00386 v053=.00447 v055=.00518 v057=.00599 v059=.00693 v061=.00803 v063=.00929
+v065=.0108 v067=.0124 v069=.0144 v071=.0167 v073=.0193 v075=.0223 v077=.0259
+v079=.0299 v081=.0346 v083=.0401 v85=.0464 v87=.0537 v89=.0622 v91=.0719 v93=.0833
+v95=.0964 v97=.112 v99=.129 v101=.149 v103=.173 v105=.2 v107=.232 v109=.268
+v111=.31 v113=.359 v115=.416 v117=.481 v119=.557 v121=.645 v123=.747 v125=.864 v127=1
+
+<control>
+#define $MODDEPTH 200 // How wide (in cents) is maximum modulation?
+#define $STARTVOL 80 // Default value for CC7 (Volume).
+#define $PB_RANGE 200 // How wide (in cents) is pitch bending? Swings both ways.
+#define $DYN_RANGE 24 // dB of dynamic range
+#define $SHAKETIME 10 // Mod fade-in, seconds after note-on (to full width)
+#define $RES_LO 200 // lowest frequency for the center of resonance
+#define $RES_MID 800 // fixed point of resonance
+#define $RES_HI 2400 // highest frequency for the center of resonance
+#define $RESBOOST 16 // How tall are the Resonance peaks?
+
+set_cc1=0 label_cc1=∿1:Mod Wheel ₀  // ❶Two Mod controls, this one on the expected CC1.
+set_cc2=0 label_cc2=2:Breath        // Enable for breath control
+// set_cc2=0 label_cc2=2:NOT USED       // Enable for velocity control
+set_cc3=63 label_cc3=∿3:Mod Rate ₅₀ // ❶Modulation rate. 0 = 3 Hz, 127 = 8 Hz. (see below in "global")
+set_cc4=38 label_cc4=4:Mod Fade ₃₀ // ❶Length of time for modulation to fade in
+set_cc5=0 label_cc5=5:Attack Time ₀ // ❶Max roll-in of notes based on cc5.
+set_cc6=127 label_cc6=6:LPF ¬ Frq ₁₀₀ // ❶Default to Nyquist freq. (effectively disabled)
+set_cc7=$STARTVOL label_cc7=⇌7:Master Vol. ₆₃  // ❶
+// CC8 = Balance.
+set_cc9=63 label_cc9=9:Resonance ₅₀  // ❶
+set_cc10=63 label_cc10=⇌10:Pan ₅₀  // ❶
+// CC11 = Expression. CC12 and 13 are usually for automation.
+set_cc21=0 label_cc21=∿21:Mod Bite ₀  // ❶Because my EWI USB outputs bite on CC21.
+set_cc66=0 label_cc66=66:Legato ₀  // ❶Use sostenuto pedal to force legato.
+
+<global>
+xf_keycurve=power ampeg_release_shape=1 ampeg_release=0.04
+amp_veltrack=0 // I want everything linked to breath, ignore velocity.
+lfo01_pitch_curvecc1=7 // "Sensitive" curve, so the extreme can be wild.
+lfo01_pitch_curvecc21=0 // This just seems to work with an EWI bite sensor.
+lfo01_freq_curvecc3=4 lfo01_freq=0.01 lfo01_freq_oncc3=21.99 // Modulation rate. 0 = 0.01 Hz, 127 = 21.99 Hz, 50% = 5.5 Hz because of sqrt(x) curve 4
+lfo01_pitch_oncc1=$MODDEPTH lfo01_pitch_oncc21=$MODDEPTH // Modulation depth. Range set by #define above.
+lfo01_fade_oncc4=$SHAKETIME
+fil_type=lpf_1p cutoff=20 cutoff_cc6=22030 cutoff_curvecc6=4 // Hi-Cut
+amplitude_oncc7=100 amplitude_curvecc7=4 // default for CC7, specifying avoids glitchiness.
+// pan_oncc10=0 // No pressing need to recycle CC10.
+ampeg_attackcc5=1 // Max roll-in of notes based on cc5 (time in seconds).
+// Bend range for primary Pitch Bend, both directions.
+bend_up=$PB_RANGE bend_down=-$PB_RANGE
+volume=-$DYN_RANGE volume_curvecc2=1 volume_cc2=$DYN_RANGE // Enable for breath control
+// volume=-$DYN_RANGE volume_curvecc131=1 volume_cc131=$DYN_RANGE // Enable for velocity control
+sostenuto_sw=off
+polyphony=4 // 4x the oscillators used on a mono note.
+
+// Resonance section
+eq1_freq=$RES_MID eq1_bw=1.26 eq1_gain=-$RESBOOST // Fixed point
+eq2_freq=$RES_LO eq2_bw=1.26 eq2_freqcc9=$RES_HI eq2_freq_curvecc9=4 eq2_gain=$RESBOOST // Movable resonance
+
+// No existing note, no CC66, play normal.
+<master> hicc153=0 hicc66=63 #include "paper lion/wb-normal.sfz"
+
+// CC66 detected, play legato.
+<master> locc66=64 #include "paper lion/wb-legato.sfz"
+
+// Existing note, play legato.
+<master> locc153=1 #include "paper lion/wb-legato.sfz"

@@ -1,0 +1,56 @@
+// Fruit Machine core sample picker, "normal"
+  <group> key=64 lokey=59 hikey=65 // Instrument extended
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-64-E3.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-64-E3.ogg ampeg_release=0.04
+
+  <group> key=67 lokey=66 hikey=68 // Instrument B0-C#1 (all pitches actually a P5 higher)
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-67-G3.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-67-G3.ogg ampeg_release=0.04
+  <group> key=69 lokey=69 hikey=70 // Instrument D1-D#1
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-69-A3.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-69-A3.ogg ampeg_release=0.04 
+  <group> key=72 lokey=71 hikey=73 // Instrument E1-F1-F#1
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-72-C4.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-72-C4.ogg ampeg_release=0.04
+  <group> key=74 lokey=74 hikey=75 // Instrument G1-G#1
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-74-D4.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-74-D4.ogg ampeg_release=0.04
+  <group> key=76 lokey=76 hikey=77 // Instrument A1-A#1
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-76-E4.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-76-E4.ogg ampeg_release=0.04
+
+  <group> key=79 lokey=78 hikey=80 // Instrument B1-C2-C#2
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-79-G4.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-79-G4.ogg ampeg_release=0.04
+  <group> key=81 lokey=81 hikey=82 // Instrument D2-D#2
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-81-A4.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-81-A4.ogg ampeg_release=0.04 
+  <group> key=84 lokey=83 hikey=85 // Instrument E2-F2-F#2
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-84-C5.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-84-C5.ogg ampeg_release=0.04
+  <group> key=86 lokey=86 hikey=87 // Instrument G2-G#2
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-86-D5.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-86-D5.ogg ampeg_release=0.04
+  <group> key=88 lokey=88 hikey=89 // Instrument A2-A#2
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-88-E5.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-88-E5.ogg ampeg_release=0.04
+
+  <group> key=91 lokey=90 hikey=92 // Instrument B2-C3-C#3
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-91-G5.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-91-G5.ogg ampeg_release=0.04
+  <group> key=93 lokey=93 hikey=94 // Instrument D3-D#3
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-93-A5.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-93-A5.ogg ampeg_release=0.04 
+  <group> key=96 lokey=95 hikey=97 // Instrument E3-F3-F#3
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-96-C6.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-96-C6.ogg ampeg_release=0.04
+  <group> key=98 lokey=98 hikey=99 // Instrument G3-G#3
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-98-D6.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-98-D6.ogg ampeg_release=0.04
+  <group> key=100 lokey=100 hikey=101 // Instrument A3-A#3
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-100-E6.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-100-E6.ogg ampeg_release=0.04
+
+  <group> key=103 lokey=102 hikey=105 // Instrument B3-C4-C#4-D4
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=plastic fruit/gflute-soft-103-G6.ogg ampeg_release=0.04
+    <region> amplitude_cc2=100 amplitude_curvecc2=6 sample=plastic fruit/gflute-loud-103-G6.ogg ampeg_release=0.04

@@ -1,0 +1,49 @@
+// Singing Straws core sample picker, "normal"
+  <group> key=61 lokey=59 hikey=62 // Instrument extended to low B.
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-61-C#3.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-61-C#3.ogg 
+  <group> key=64 lokey=63 hikey=65
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-64-E3.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-64-E3.ogg 
+  <group> key=67 lokey=66 hikey=68
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-67-G3.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-67-G3.ogg 
+  <group> key=70 lokey=69 hikey=71
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-70-A#3.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-70-A#3.ogg 
+
+  <group> key=73 lokey=72 hikey=74
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-73-C#4.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-73-C#4.ogg 
+  <group> key=76 lokey=75 hikey=77
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-76-E4.ogg 
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-76-E4.ogg 
+  <group> key=79 lokey=78 hikey=80
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-79-G4.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-79-G4.ogg 
+  <group> key=82 lokey=81 hikey=83
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-82-A#4.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-82-A#4.ogg 
+
+  <group> key=85 lokey=84 hikey=86
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-85-C#5.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-85-C#5.ogg 
+  <group> key=88 lokey=87 hikey=89
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-88-E5.ogg 
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-88-E5.ogg 
+  <group> key=91 lokey=90 hikey=92
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-91-G5.ogg
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-91-G5.ogg 
+  <group> key=94 lokey=93 hikey=95
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-94-A#5.ogg 
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-94-A#5.ogg 
+
+  <group> key=97 lokey=96 hikey=98
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-97-C#6.ogg 
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-97-C#6.ogg 
+  <group> key=100 lokey=99 hikey=101
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-100-E6.ogg 
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-100-E6.ogg 
+  <group> key=104 lokey=102 hikey=105
+    <region> amplitude_cc2=100 amplitude_curvecc2=5 sample=singing straws/straws-soft-104-G#6.ogg 
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=singing straws/straws-loud-104-G#6.ogg 

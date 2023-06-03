@@ -1,0 +1,41 @@
+/// Magical Fruit core sample picker, "legato"
+  <group> key=49 lokey=45 hikey=50 // Manufactured sample
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-49-C#2_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-49-C#2_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-49-C#2_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=52 lokey=51 hikey=53
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-52-E2_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-52-E2_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-52-E2_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=55 lokey=54 hikey=56
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-55-G2_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-55-G2_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-55-G2_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=58 lokey=57 hikey=59
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-58-Bb2_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-58-Bb2_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-58-Bb2_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=61 lokey=60 hikey=62
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-61-C#3_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-61-C#3_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-61-C#3_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=64 lokey=63 hikey=65
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-64-E3_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-64-E3_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-64-E3_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=67 lokey=66 hikey=68
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-67-G3_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-67-G3_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-67-G3_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=70 lokey=69 hikey=71
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-70-Bb3_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-70-Bb3_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-70-Bb3_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=73 lokey=72 hikey=74 // Manufactured sample
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-73-C#4_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-73-C#4_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-73-C#4_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4
+  <group> key=76 lokey=75 hikey=84 // Pitch-shifted sample (+3 from original)
+    <region> amplitude_cc2=100 amplitude_curvecc2=8 sample=magical fruit/awb-76-E4_v1.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=9 sample=magical fruit/awb-76-E4_v2.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000
+    <region> amplitude_cc2=100 amplitude_curvecc2=10 sample=magical fruit/awb-76-E4_v3.ogg ampeg_release=0.04 ampeg_attack=0.1 offset=48000 volume=-4

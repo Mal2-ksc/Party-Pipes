@@ -1,0 +1,32 @@
+// Paper Lion core sample picker, "normal" keyboard
+seq_length=2
+  <group> key=37 lokey=31 hikey=38 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_37-C#1_rr1.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_37-C#1_rr2.ogg
+  <group> key=41 lokey=39 hikey=42 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_41-F1_rr1.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_41-F1_rr2.ogg
+  <group> key=45 lokey=43 hikey=46 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_45-A1_rr1.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_45-A1_rr2.ogg
+  <group> key=49 lokey=47 hikey=50 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_49-C#2_rr1.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_49-C#2_rr2.ogg
+  <group> key=53 lokey=51 hikey=54 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_53-F2_rr1.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_53-F2_rr2.ogg
+  <group> key=57 lokey=55 hikey=58 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_57-A2_rr1.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_57-A2_rr2.ogg
+  <group> key=60 lokey=59 hikey=61  
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_60-C3_rr1.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_60-C3_rr2.ogg
+  <group> key=63 lokey=62 hikey=64 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_63-Eb3_rr1.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_63-Eb3_rr2.ogg
+  <group> key=66 lokey=65 hikey=68 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_66-F#3.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_66-F#3.ogg
+  <group> key=69 lokey=69 hikey=72 
+    <region> seq_position=1 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_69-A3.ogg
+    <region> seq_position=2 amplitude_cc131=100 amplitude_curvecc131=5 sample=paper lion/windbreaker_69-A3.ogg
