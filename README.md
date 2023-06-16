@@ -36,3 +36,5 @@ This SFZ format package contains seven sampled instruments: pan pipes, plastic f
 ♪	Paper Lion (baritone windbreaker) range: G0 (extended)/C1 to C4.
 
 ♪	Magical Fruit (alto windbreaker) range: A1 to C5. Same hardware as Plastic Fruit, but used quite differently.
+
+♪	NEW! Slap Stick (bass slapophone) range: C0 to D3. 11 dynamic layers. Keys-optimized only, no Breath version.
