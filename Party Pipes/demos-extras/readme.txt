@@ -1,6 +1,6 @@
-Party Pipes 1.21.10 by Malaclypse the Younger, mal2fnord@gmail.com.
+Party Pipes 3.23.06 by Malaclypse the Younger, mal2fnord@gmail.com.
 
-Party Pipes is a collection of wind instruments that feature similar controls. All samples were recorded and processed by me personally.
+Party Pipes is a collection of wind (and in one case, percussion) instruments that feature similar controls. All samples were recorded and processed by me personally.
 
 The individual SFZ files map to instruments as follows:
 • Big Stick - Alto clarinet in E♭*. Range D#1 to A#4, extrapolated down to A#0.
@@ -9,8 +9,9 @@ The individual SFZ files map to instruments as follows:
 • Singing Straws - Pan pipes made of 1 cm wide plastic straws. Range B2 to A6.
 • Paper Lion - PDQ Bach "windbreaker". Plastic and/or cardboard cylindrical tubes which are played by buzzing. Range G0 to C4, but the expressive range is much less.
 • Magical Fruit - Alto (octave higher) version of "windbreaker" but all plastic. Range is A1 to C5, matching the lower range of a 3-valve E♭ "tenor horn".
+• Slap Stick - Slapophone, featuring 11 velocity layers. Range is C0 to D4. Keyboard optimized only.
 
-There are two versions provided for each instrument.
+There are two versions provided for most of the instruments.
 • The base version is optimized for use with a breath controller, EWI, or similar.
   This links breath to volume and to layer mixing in real time, and ignores velocity.
 • The [keys] version uses only velocity to determine volume and layer mixing.
@@ -41,6 +42,8 @@ To play legato, run the notes into each other. As long as they "touch" or overla
 
 Modulation depth can be controlled either with the usual CC1, or with CC21
 because that's what my EWI's bite sensor is set to. (And they stack.)
+
+Slap Stick: This one functions a bit different. There is no breath-optimized version since this is a percussion instrument, but it's still made of pipes so included in this suite. The controls are very limited, and all samples are played as one-shots (no way to stop them but they're only 750 ms long at most). All samples are derived from a single 160 cm × 4.6 cm ID pipe (the A#1 sample set), with 11 separate velocity layers.
 
 The MIT license applies only to distribution of the Software itself, and individual components that comprise it. There is ABSOLUTELY NO REQUIREMENT to provide credit when merely using the instrument to make sound. You are only required to provide the boilerplate license if distributing the instrument itself or pieces of.
 

@@ -1149,7 +1149,7 @@ volume_oncc13=18 volume_curvecc13=5 // Volume comp for CC13
     <region> sample=55-G2-11.flac seq_position=3 tune=7
     <region> sample=55-G2-11.flac seq_position=4 tune=-2
     
-<master> key=58 lokey=57 hikey=62 pan=-22 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+<master> key=58 lokey=57 hikey=59 pan=-22 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
   <group> lovel=0 hivel=10 seq_length=4
     <region> sample=58-A#2-01.flac seq_position=1 tune=2
     <region> sample=58-A#2-01.flac seq_position=2 tune=-7
@@ -1247,3 +1247,498 @@ volume_oncc13=18 volume_curvecc13=5 // Volume comp for CC13
     <region> sample=58-A#2-11.flac seq_position=2 tune=2
     <region> sample=58-A#2-11.flac seq_position=3 tune=7
     <region> sample=58-A#2-11.flac seq_position=4 tune=-2
+
+<master> key=61 lokey=60 hikey=62 pan=-25 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  <group> lovel=0 hivel=10 seq_length=4
+    <region> sample=61-C#3-01.flac seq_position=1 tune=2
+    <region> sample=61-C#3-01.flac seq_position=2 tune=-7
+    <region> sample=61-C#3-01.flac seq_position=3 tune=7
+    <region> sample=61-C#3-01.flac seq_position=4 tune=-2
+
+  <group> lovel=11 hivel=21 seq_length=4
+    <region> sample=61-C#3-01.flac seq_position=1
+    <region> sample=61-C#3-02.flac seq_position=2
+    <region> sample=61-C#3-02.flac seq_position=3 tune=-7
+    <region> sample=61-C#3-01.flac seq_position=4 tune=7
+      
+  <group> lovel=22 hivel=31 seq_length=6
+    <region> sample=61-C#3-03.flac seq_position=1
+    <region> sample=61-C#3-02.flac seq_position=2 tune=7
+    <region> sample=61-C#3-01.flac seq_position=3 
+    <region> sample=61-C#3-03.flac seq_position=4 tune=-7
+    <region> sample=61-C#3-02.flac seq_position=5
+    <region> sample=61-C#3-01.flac seq_position=6 tune=-7
+      
+  <group> lovel=32 hivel=42 seq_length=6
+    <region> sample=61-C#3-03.flac seq_position=1
+    <region> sample=61-C#3-04.flac seq_position=2 tune=7
+    <region> sample=61-C#3-02.flac seq_position=3
+    <region> sample=61-C#3-03.flac seq_position=4 tune=-7
+    <region> sample=61-C#3-04.flac seq_position=5
+    <region> sample=61-C#3-02.flac seq_position=6 tune=7
+
+  <group> lovel=43 hivel=52 seq_length=6
+    <region> sample=61-C#3-05.flac seq_position=1 tune=-7
+    <region> sample=61-C#3-03.flac seq_position=2
+    <region> sample=61-C#3-04.flac seq_position=3 tune=7
+    <region> sample=61-C#3-05.flac seq_position=4
+    <region> sample=61-C#3-03.flac seq_position=5 tune=-7
+    <region> sample=61-C#3-04.flac seq_position=6
+
+  <group> lovel=53 hivel=63 seq_length=6
+    <region> sample=61-C#3-04.flac seq_position=1
+    <region> sample=61-C#3-06.flac seq_position=2 tune=7
+    <region> sample=61-C#3-05.flac seq_position=3
+    <region> sample=61-C#3-04.flac seq_position=4 tune=-7
+    <region> sample=61-C#3-06.flac seq_position=5
+    <region> sample=61-C#3-05.flac seq_position=6 tune=-7
+
+  <group> lovel=64 hivel=73 seq_length=6
+    <region> sample=61-C#3-06.flac seq_position=1 tune=7
+    <region> sample=61-C#3-05.flac seq_position=2
+    <region> sample=61-C#3-07.flac seq_position=3 tune=-7
+    <region> sample=61-C#3-06.flac seq_position=4
+    <region> sample=61-C#3-05.flac seq_position=5 tune=7
+    <region> sample=61-C#3-07.flac seq_position=6
+
+  <group> lovel=74 hivel=84 seq_length=6
+    <region> sample=61-C#3-06.flac seq_position=1
+    <region> sample=61-C#3-08.flac seq_position=2 tune=7
+    <region> sample=61-C#3-07.flac seq_position=3
+    <region> sample=61-C#3-06.flac seq_position=4 tune=-7
+    <region> sample=61-C#3-08.flac seq_position=5
+    <region> sample=61-C#3-07.flac seq_position=6 tune=7
+
+  <group> lovel=85 hivel=94 seq_length=6
+    <region> sample=61-C#3-08.flac seq_position=1 tune=7
+    <region> sample=61-C#3-07.flac seq_position=2
+    <region> sample=61-C#3-09.flac seq_position=3 tune=-7
+    <region> sample=61-C#3-08.flac seq_position=4
+    <region> sample=61-C#3-07.flac seq_position=5 tune=7
+    <region> sample=61-C#3-09.flac seq_position=6
+
+  <group> lovel=95 hivel=105 seq_length=6
+    <region> sample=61-C#3-10.flac seq_position=1
+    <region> sample=61-C#3-09.flac seq_position=2 tune=-7
+    <region> sample=61-C#3-08.flac seq_position=3
+    <region> sample=61-C#3-10.flac seq_position=4 tune=7
+    <region> sample=61-C#3-09.flac seq_position=5
+    <region> sample=61-C#3-08.flac seq_position=6 tune=-7
+
+  <group> lovel=106 hivel=115 seq_length=6
+    <region> sample=61-C#3-10.flac seq_position=1 tune=-7
+    <region> sample=61-C#3-10.flac seq_position=2
+    <region> sample=61-C#3-09.flac seq_position=3 tune=7
+    <region> sample=61-C#3-10.flac seq_position=4
+    <region> sample=61-C#3-10.flac seq_position=5 tune=-7
+    <region> sample=61-C#3-09.flac seq_position=6
+
+  <group> lovel=116 hivel=126 seq_length=6
+    <region> sample=61-C#3-10.flac seq_position=1
+    <region> sample=61-C#3-10.flac seq_position=2 tune=7
+    <region> sample=61-C#3-11.flac seq_position=3
+    <region> sample=61-C#3-10.flac seq_position=4
+    <region> sample=61-C#3-10.flac seq_position=5 tune=-7
+    <region> sample=61-C#3-11.flac seq_position=6 tune=7
+
+  <group> lovel=127 hivel=127 seq_length=4
+    <region> sample=61-C#3-11.flac seq_position=1 tune=-7
+    <region> sample=61-C#3-11.flac seq_position=2 tune=2
+    <region> sample=61-C#3-11.flac seq_position=3 tune=7
+    <region> sample=61-C#3-11.flac seq_position=4 tune=-2
+
+<master> key=64 lokey=63 hikey=65 pan=-28 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  <group> lovel=0 hivel=10 seq_length=4
+    <region> sample=64-E3-01.flac seq_position=1 tune=2
+    <region> sample=64-E3-01.flac seq_position=2 tune=-7
+    <region> sample=64-E3-01.flac seq_position=3 tune=7
+    <region> sample=64-E3-01.flac seq_position=4 tune=-2
+
+  <group> lovel=11 hivel=21 seq_length=4
+    <region> sample=64-E3-01.flac seq_position=1
+    <region> sample=64-E3-02.flac seq_position=2
+    <region> sample=64-E3-02.flac seq_position=3 tune=-7
+    <region> sample=64-E3-01.flac seq_position=4 tune=7
+      
+  <group> lovel=22 hivel=31 seq_length=6
+    <region> sample=64-E3-03.flac seq_position=1
+    <region> sample=64-E3-02.flac seq_position=2 tune=7
+    <region> sample=64-E3-01.flac seq_position=3 
+    <region> sample=64-E3-03.flac seq_position=4 tune=-7
+    <region> sample=64-E3-02.flac seq_position=5
+    <region> sample=64-E3-01.flac seq_position=6 tune=-7
+      
+  <group> lovel=32 hivel=42 seq_length=6
+    <region> sample=64-E3-03.flac seq_position=1
+    <region> sample=64-E3-04.flac seq_position=2 tune=7
+    <region> sample=64-E3-02.flac seq_position=3
+    <region> sample=64-E3-03.flac seq_position=4 tune=-7
+    <region> sample=64-E3-04.flac seq_position=5
+    <region> sample=64-E3-02.flac seq_position=6 tune=7
+
+  <group> lovel=43 hivel=52 seq_length=6
+    <region> sample=64-E3-05.flac seq_position=1 tune=-7
+    <region> sample=64-E3-03.flac seq_position=2
+    <region> sample=64-E3-04.flac seq_position=3 tune=7
+    <region> sample=64-E3-05.flac seq_position=4
+    <region> sample=64-E3-03.flac seq_position=5 tune=-7
+    <region> sample=64-E3-04.flac seq_position=6
+
+  <group> lovel=53 hivel=63 seq_length=6
+    <region> sample=64-E3-04.flac seq_position=1
+    <region> sample=64-E3-06.flac seq_position=2 tune=7
+    <region> sample=64-E3-05.flac seq_position=3
+    <region> sample=64-E3-04.flac seq_position=4 tune=-7
+    <region> sample=64-E3-06.flac seq_position=5
+    <region> sample=64-E3-05.flac seq_position=6 tune=-7
+
+  <group> lovel=64 hivel=73 seq_length=6
+    <region> sample=64-E3-06.flac seq_position=1 tune=7
+    <region> sample=64-E3-05.flac seq_position=2
+    <region> sample=64-E3-07.flac seq_position=3 tune=-7
+    <region> sample=64-E3-06.flac seq_position=4
+    <region> sample=64-E3-05.flac seq_position=5 tune=7
+    <region> sample=64-E3-07.flac seq_position=6
+
+  <group> lovel=74 hivel=84 seq_length=6
+    <region> sample=64-E3-06.flac seq_position=1
+    <region> sample=64-E3-08.flac seq_position=2 tune=7
+    <region> sample=64-E3-07.flac seq_position=3
+    <region> sample=64-E3-06.flac seq_position=4 tune=-7
+    <region> sample=64-E3-08.flac seq_position=5
+    <region> sample=64-E3-07.flac seq_position=6 tune=7
+
+  <group> lovel=85 hivel=94 seq_length=6
+    <region> sample=64-E3-08.flac seq_position=1 tune=7
+    <region> sample=64-E3-07.flac seq_position=2
+    <region> sample=64-E3-09.flac seq_position=3 tune=-7
+    <region> sample=64-E3-08.flac seq_position=4
+    <region> sample=64-E3-07.flac seq_position=5 tune=7
+    <region> sample=64-E3-09.flac seq_position=6
+
+  <group> lovel=95 hivel=105 seq_length=6
+    <region> sample=64-E3-10.flac seq_position=1
+    <region> sample=64-E3-09.flac seq_position=2 tune=-7
+    <region> sample=64-E3-08.flac seq_position=3
+    <region> sample=64-E3-10.flac seq_position=4 tune=7
+    <region> sample=64-E3-09.flac seq_position=5
+    <region> sample=64-E3-08.flac seq_position=6 tune=-7
+
+  <group> lovel=106 hivel=115 seq_length=6
+    <region> sample=64-E3-10.flac seq_position=1 tune=-7
+    <region> sample=64-E3-10.flac seq_position=2
+    <region> sample=64-E3-09.flac seq_position=3 tune=7
+    <region> sample=64-E3-10.flac seq_position=4
+    <region> sample=64-E3-10.flac seq_position=5 tune=-7
+    <region> sample=64-E3-09.flac seq_position=6
+
+  <group> lovel=116 hivel=126 seq_length=6
+    <region> sample=64-E3-10.flac seq_position=1
+    <region> sample=64-E3-10.flac seq_position=2 tune=7
+    <region> sample=64-E3-11.flac seq_position=3
+    <region> sample=64-E3-10.flac seq_position=4
+    <region> sample=64-E3-10.flac seq_position=5 tune=-7
+    <region> sample=64-E3-11.flac seq_position=6 tune=7
+
+  <group> lovel=127 hivel=127 seq_length=4
+    <region> sample=64-E3-11.flac seq_position=1 tune=-7
+    <region> sample=64-E3-11.flac seq_position=2 tune=2
+    <region> sample=64-E3-11.flac seq_position=3 tune=7
+    <region> sample=64-E3-11.flac seq_position=4 tune=-2
+
+<master> key=67 lokey=66 hikey=68 pan=-31 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  <group> lovel=0 hivel=10 seq_length=4
+    <region> sample=67-G3-01.flac seq_position=1 tune=2
+    <region> sample=67-G3-01.flac seq_position=2 tune=-7
+    <region> sample=67-G3-01.flac seq_position=3 tune=7
+    <region> sample=67-G3-01.flac seq_position=4 tune=-2
+
+  <group> lovel=11 hivel=21 seq_length=4
+    <region> sample=67-G3-01.flac seq_position=1
+    <region> sample=67-G3-02.flac seq_position=2
+    <region> sample=67-G3-02.flac seq_position=3 tune=-7
+    <region> sample=67-G3-01.flac seq_position=4 tune=7
+      
+  <group> lovel=22 hivel=31 seq_length=6
+    <region> sample=67-G3-03.flac seq_position=1
+    <region> sample=67-G3-02.flac seq_position=2 tune=7
+    <region> sample=67-G3-01.flac seq_position=3 
+    <region> sample=67-G3-03.flac seq_position=4 tune=-7
+    <region> sample=67-G3-02.flac seq_position=5
+    <region> sample=67-G3-01.flac seq_position=6 tune=-7
+      
+  <group> lovel=32 hivel=42 seq_length=6
+    <region> sample=67-G3-03.flac seq_position=1
+    <region> sample=67-G3-04.flac seq_position=2 tune=7
+    <region> sample=67-G3-02.flac seq_position=3
+    <region> sample=67-G3-03.flac seq_position=4 tune=-7
+    <region> sample=67-G3-04.flac seq_position=5
+    <region> sample=67-G3-02.flac seq_position=6 tune=7
+
+  <group> lovel=43 hivel=52 seq_length=6
+    <region> sample=67-G3-05.flac seq_position=1 tune=-7
+    <region> sample=67-G3-03.flac seq_position=2
+    <region> sample=67-G3-04.flac seq_position=3 tune=7
+    <region> sample=67-G3-05.flac seq_position=4
+    <region> sample=67-G3-03.flac seq_position=5 tune=-7
+    <region> sample=67-G3-04.flac seq_position=6
+
+  <group> lovel=53 hivel=63 seq_length=6
+    <region> sample=67-G3-04.flac seq_position=1
+    <region> sample=67-G3-06.flac seq_position=2 tune=7
+    <region> sample=67-G3-05.flac seq_position=3
+    <region> sample=67-G3-04.flac seq_position=4 tune=-7
+    <region> sample=67-G3-06.flac seq_position=5
+    <region> sample=67-G3-05.flac seq_position=6 tune=-7
+
+  <group> lovel=64 hivel=73 seq_length=6
+    <region> sample=67-G3-06.flac seq_position=1 tune=7
+    <region> sample=67-G3-05.flac seq_position=2
+    <region> sample=67-G3-07.flac seq_position=3 tune=-7
+    <region> sample=67-G3-06.flac seq_position=4
+    <region> sample=67-G3-05.flac seq_position=5 tune=7
+    <region> sample=67-G3-07.flac seq_position=6
+
+  <group> lovel=74 hivel=84 seq_length=6
+    <region> sample=67-G3-06.flac seq_position=1
+    <region> sample=67-G3-08.flac seq_position=2 tune=7
+    <region> sample=67-G3-07.flac seq_position=3
+    <region> sample=67-G3-06.flac seq_position=4 tune=-7
+    <region> sample=67-G3-08.flac seq_position=5
+    <region> sample=67-G3-07.flac seq_position=6 tune=7
+
+  <group> lovel=85 hivel=94 seq_length=6
+    <region> sample=67-G3-08.flac seq_position=1 tune=7
+    <region> sample=67-G3-07.flac seq_position=2
+    <region> sample=67-G3-09.flac seq_position=3 tune=-7
+    <region> sample=67-G3-08.flac seq_position=4
+    <region> sample=67-G3-07.flac seq_position=5 tune=7
+    <region> sample=67-G3-09.flac seq_position=6
+
+  <group> lovel=95 hivel=105 seq_length=6
+    <region> sample=67-G3-10.flac seq_position=1
+    <region> sample=67-G3-09.flac seq_position=2 tune=-7
+    <region> sample=67-G3-08.flac seq_position=3
+    <region> sample=67-G3-10.flac seq_position=4 tune=7
+    <region> sample=67-G3-09.flac seq_position=5
+    <region> sample=67-G3-08.flac seq_position=6 tune=-7
+
+  <group> lovel=106 hivel=115 seq_length=6
+    <region> sample=67-G3-10.flac seq_position=1 tune=-7
+    <region> sample=67-G3-10.flac seq_position=2
+    <region> sample=67-G3-09.flac seq_position=3 tune=7
+    <region> sample=67-G3-10.flac seq_position=4
+    <region> sample=67-G3-10.flac seq_position=5 tune=-7
+    <region> sample=67-G3-09.flac seq_position=6
+
+  <group> lovel=116 hivel=126 seq_length=6
+    <region> sample=67-G3-10.flac seq_position=1
+    <region> sample=67-G3-10.flac seq_position=2 tune=7
+    <region> sample=67-G3-11.flac seq_position=3
+    <region> sample=67-G3-10.flac seq_position=4
+    <region> sample=67-G3-10.flac seq_position=5 tune=-7
+    <region> sample=67-G3-11.flac seq_position=6 tune=7
+
+  <group> lovel=127 hivel=127 seq_length=4
+    <region> sample=67-G3-11.flac seq_position=1 tune=-7
+    <region> sample=67-G3-11.flac seq_position=2 tune=2
+    <region> sample=67-G3-11.flac seq_position=3 tune=7
+    <region> sample=67-G3-11.flac seq_position=4 tune=-2
+
+<master> key=70 lokey=69 hikey=71 pan=-34 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  <group> lovel=0 hivel=10 seq_length=4
+    <region> sample=70-A#3-01.flac seq_position=1 tune=2
+    <region> sample=70-A#3-01.flac seq_position=2 tune=-7
+    <region> sample=70-A#3-01.flac seq_position=3 tune=7
+    <region> sample=70-A#3-01.flac seq_position=4 tune=-2
+
+  <group> lovel=11 hivel=21 seq_length=4
+    <region> sample=70-A#3-01.flac seq_position=1
+    <region> sample=70-A#3-02.flac seq_position=2
+    <region> sample=70-A#3-02.flac seq_position=3 tune=-7
+    <region> sample=70-A#3-01.flac seq_position=4 tune=7
+      
+  <group> lovel=22 hivel=31 seq_length=6
+    <region> sample=70-A#3-03.flac seq_position=1
+    <region> sample=70-A#3-02.flac seq_position=2 tune=7
+    <region> sample=70-A#3-01.flac seq_position=3 
+    <region> sample=70-A#3-03.flac seq_position=4 tune=-7
+    <region> sample=70-A#3-02.flac seq_position=5
+    <region> sample=70-A#3-01.flac seq_position=6 tune=-7
+      
+  <group> lovel=32 hivel=42 seq_length=6
+    <region> sample=70-A#3-03.flac seq_position=1
+    <region> sample=70-A#3-04.flac seq_position=2 tune=7
+    <region> sample=70-A#3-02.flac seq_position=3
+    <region> sample=70-A#3-03.flac seq_position=4 tune=-7
+    <region> sample=70-A#3-04.flac seq_position=5
+    <region> sample=70-A#3-02.flac seq_position=6 tune=7
+
+  <group> lovel=43 hivel=52 seq_length=6
+    <region> sample=70-A#3-05.flac seq_position=1 tune=-7
+    <region> sample=70-A#3-03.flac seq_position=2
+    <region> sample=70-A#3-04.flac seq_position=3 tune=7
+    <region> sample=70-A#3-05.flac seq_position=4
+    <region> sample=70-A#3-03.flac seq_position=5 tune=-7
+    <region> sample=70-A#3-04.flac seq_position=6
+
+  <group> lovel=53 hivel=63 seq_length=6
+    <region> sample=70-A#3-04.flac seq_position=1
+    <region> sample=70-A#3-06.flac seq_position=2 tune=7
+    <region> sample=70-A#3-05.flac seq_position=3
+    <region> sample=70-A#3-04.flac seq_position=4 tune=-7
+    <region> sample=70-A#3-06.flac seq_position=5
+    <region> sample=70-A#3-05.flac seq_position=6 tune=-7
+
+  <group> lovel=64 hivel=73 seq_length=6
+    <region> sample=70-A#3-06.flac seq_position=1 tune=7
+    <region> sample=70-A#3-05.flac seq_position=2
+    <region> sample=70-A#3-07.flac seq_position=3 tune=-7
+    <region> sample=70-A#3-06.flac seq_position=4
+    <region> sample=70-A#3-05.flac seq_position=5 tune=7
+    <region> sample=70-A#3-07.flac seq_position=6
+
+  <group> lovel=74 hivel=84 seq_length=6
+    <region> sample=70-A#3-06.flac seq_position=1
+    <region> sample=70-A#3-08.flac seq_position=2 tune=7
+    <region> sample=70-A#3-07.flac seq_position=3
+    <region> sample=70-A#3-06.flac seq_position=4 tune=-7
+    <region> sample=70-A#3-08.flac seq_position=5
+    <region> sample=70-A#3-07.flac seq_position=6 tune=7
+
+  <group> lovel=85 hivel=94 seq_length=6
+    <region> sample=70-A#3-08.flac seq_position=1 tune=7
+    <region> sample=70-A#3-07.flac seq_position=2
+    <region> sample=70-A#3-09.flac seq_position=3 tune=-7
+    <region> sample=70-A#3-08.flac seq_position=4
+    <region> sample=70-A#3-07.flac seq_position=5 tune=7
+    <region> sample=70-A#3-09.flac seq_position=6
+
+  <group> lovel=95 hivel=105 seq_length=6
+    <region> sample=70-A#3-10.flac seq_position=1
+    <region> sample=70-A#3-09.flac seq_position=2 tune=-7
+    <region> sample=70-A#3-08.flac seq_position=3
+    <region> sample=70-A#3-10.flac seq_position=4 tune=7
+    <region> sample=70-A#3-09.flac seq_position=5
+    <region> sample=70-A#3-08.flac seq_position=6 tune=-7
+
+  <group> lovel=106 hivel=115 seq_length=6
+    <region> sample=70-A#3-10.flac seq_position=1 tune=-7
+    <region> sample=70-A#3-10.flac seq_position=2
+    <region> sample=70-A#3-09.flac seq_position=3 tune=7
+    <region> sample=70-A#3-10.flac seq_position=4
+    <region> sample=70-A#3-10.flac seq_position=5 tune=-7
+    <region> sample=70-A#3-09.flac seq_position=6
+
+  <group> lovel=116 hivel=126 seq_length=6
+    <region> sample=70-A#3-10.flac seq_position=1
+    <region> sample=70-A#3-10.flac seq_position=2 tune=7
+    <region> sample=70-A#3-11.flac seq_position=3
+    <region> sample=70-A#3-10.flac seq_position=4
+    <region> sample=70-A#3-10.flac seq_position=5 tune=-7
+    <region> sample=70-A#3-11.flac seq_position=6 tune=7
+
+  <group> lovel=127 hivel=127 seq_length=4
+    <region> sample=70-A#3-11.flac seq_position=1 tune=-7
+    <region> sample=70-A#3-11.flac seq_position=2 tune=2
+    <region> sample=70-A#3-11.flac seq_position=3 tune=7
+    <region> sample=70-A#3-11.flac seq_position=4 tune=-2
+
+<master> key=70 lokey=72 hikey=74 pan=-37 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+  <group> lovel=0 hivel=10 seq_length=4
+    <region> sample=70-A#3-01.flac seq_position=1 tune=2
+    <region> sample=70-A#3-01.flac seq_position=2 tune=-7
+    <region> sample=70-A#3-01.flac seq_position=3 tune=7
+    <region> sample=70-A#3-01.flac seq_position=4 tune=-2
+
+  <group> lovel=11 hivel=21 seq_length=4
+    <region> sample=70-A#3-01.flac seq_position=1
+    <region> sample=70-A#3-02.flac seq_position=2
+    <region> sample=70-A#3-02.flac seq_position=3 tune=-7
+    <region> sample=70-A#3-01.flac seq_position=4 tune=7
+      
+  <group> lovel=22 hivel=31 seq_length=6
+    <region> sample=70-A#3-03.flac seq_position=1
+    <region> sample=70-A#3-02.flac seq_position=2 tune=7
+    <region> sample=70-A#3-01.flac seq_position=3 
+    <region> sample=70-A#3-03.flac seq_position=4 tune=-7
+    <region> sample=70-A#3-02.flac seq_position=5
+    <region> sample=70-A#3-01.flac seq_position=6 tune=-7
+      
+  <group> lovel=32 hivel=42 seq_length=6
+    <region> sample=70-A#3-03.flac seq_position=1
+    <region> sample=70-A#3-04.flac seq_position=2 tune=7
+    <region> sample=70-A#3-02.flac seq_position=3
+    <region> sample=70-A#3-03.flac seq_position=4 tune=-7
+    <region> sample=70-A#3-04.flac seq_position=5
+    <region> sample=70-A#3-02.flac seq_position=6 tune=7
+
+  <group> lovel=43 hivel=52 seq_length=6
+    <region> sample=70-A#3-05.flac seq_position=1 tune=-7
+    <region> sample=70-A#3-03.flac seq_position=2
+    <region> sample=70-A#3-04.flac seq_position=3 tune=7
+    <region> sample=70-A#3-05.flac seq_position=4
+    <region> sample=70-A#3-03.flac seq_position=5 tune=-7
+    <region> sample=70-A#3-04.flac seq_position=6
+
+  <group> lovel=53 hivel=63 seq_length=6
+    <region> sample=70-A#3-04.flac seq_position=1
+    <region> sample=70-A#3-06.flac seq_position=2 tune=7
+    <region> sample=70-A#3-05.flac seq_position=3
+    <region> sample=70-A#3-04.flac seq_position=4 tune=-7
+    <region> sample=70-A#3-06.flac seq_position=5
+    <region> sample=70-A#3-05.flac seq_position=6 tune=-7
+
+  <group> lovel=64 hivel=73 seq_length=6
+    <region> sample=70-A#3-06.flac seq_position=1 tune=7
+    <region> sample=70-A#3-05.flac seq_position=2
+    <region> sample=70-A#3-07.flac seq_position=3 tune=-7
+    <region> sample=70-A#3-06.flac seq_position=4
+    <region> sample=70-A#3-05.flac seq_position=5 tune=7
+    <region> sample=70-A#3-07.flac seq_position=6
+
+  <group> lovel=74 hivel=84 seq_length=6
+    <region> sample=70-A#3-06.flac seq_position=1
+    <region> sample=70-A#3-08.flac seq_position=2 tune=7
+    <region> sample=70-A#3-07.flac seq_position=3
+    <region> sample=70-A#3-06.flac seq_position=4 tune=-7
+    <region> sample=70-A#3-08.flac seq_position=5
+    <region> sample=70-A#3-07.flac seq_position=6 tune=7
+
+  <group> lovel=85 hivel=94 seq_length=6
+    <region> sample=70-A#3-08.flac seq_position=1 tune=7
+    <region> sample=70-A#3-07.flac seq_position=2
+    <region> sample=70-A#3-09.flac seq_position=3 tune=-7
+    <region> sample=70-A#3-08.flac seq_position=4
+    <region> sample=70-A#3-07.flac seq_position=5 tune=7
+    <region> sample=70-A#3-09.flac seq_position=6
+
+  <group> lovel=95 hivel=105 seq_length=6
+    <region> sample=70-A#3-10.flac seq_position=1
+    <region> sample=70-A#3-09.flac seq_position=2 tune=-7
+    <region> sample=70-A#3-08.flac seq_position=3
+    <region> sample=70-A#3-10.flac seq_position=4 tune=7
+    <region> sample=70-A#3-09.flac seq_position=5
+    <region> sample=70-A#3-08.flac seq_position=6 tune=-7
+
+  <group> lovel=106 hivel=115 seq_length=6
+    <region> sample=70-A#3-10.flac seq_position=1 tune=-7
+    <region> sample=70-A#3-10.flac seq_position=2
+    <region> sample=70-A#3-09.flac seq_position=3 tune=7
+    <region> sample=70-A#3-10.flac seq_position=4
+    <region> sample=70-A#3-10.flac seq_position=5 tune=-7
+    <region> sample=70-A#3-09.flac seq_position=6
+
+  <group> lovel=116 hivel=126 seq_length=6
+    <region> sample=70-A#3-10.flac seq_position=1
+    <region> sample=70-A#3-10.flac seq_position=2 tune=7
+    <region> sample=70-A#3-11.flac seq_position=3
+    <region> sample=70-A#3-10.flac seq_position=4
+    <region> sample=70-A#3-10.flac seq_position=5 tune=-7
+    <region> sample=70-A#3-11.flac seq_position=6 tune=7
+
+  <group> lovel=127 hivel=127 seq_length=4
+    <region> sample=70-A#3-11.flac seq_position=1 tune=-7
+    <region> sample=70-A#3-11.flac seq_position=2 tune=2
+    <region> sample=70-A#3-11.flac seq_position=3 tune=7
+    <region> sample=70-A#3-11.flac seq_position=4 tune=-2
