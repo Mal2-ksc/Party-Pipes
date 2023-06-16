@@ -1,6 +1,7 @@
 // Slap Stick for Party Pipes 1.23.06, by Malaclypse the Younger, mal2fnord@gmail.com
 // 
 // Slapophone. The A#1 samples are genuine, everything else is pitch shifted from there.
+// "Keys" version only. There is no need for a separate wind controller variant.
 //
 // There is no separate documentation, so read the comments :) .
 //
@@ -50,7 +51,7 @@ set_cc7=84 label_cc7=7:👏 Volume 👏
 set_cc10=63 label_cc10=10:Pan
 set_cc13=0 label_cc13=13:Distance // simulated mic distance in a resonant room
 
-default_path="Slap Stick/" // I use a flat file structure. How convenient.
+default_path=Slap Stick/ // I use a flat file structure. How convenient.
 
 <global>
 volume=-33 volume_oncc7=36
