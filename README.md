@@ -1,5 +1,5 @@
 # Party-Pipes
-This SFZ format package contains seven sampled instruments: pan pipes, plastic flute in treble G, a blown beer bottle filled to various levels, clarinet in B♭, alto clarinet in E♭, and two sizes of windbreaker (a PDQ Bach instrument). The sampled “generator” for the pan pipes is me blowing across 1 cm wide party straws with the end stopped, and the treble G flute is the one pictured. The clarinets are standard band issue, with range extended (with plumbing) and extrapolated (digitally shifted and formant-compensated).
+This SFZ format package contains seven sampled instruments: pan pipes, plastic flute in treble G, a blown beer bottle filled to various levels, clarinet in B♭, alto clarinet in E♭, two sizes of windbreaker (a PDQ Bach instrument), and a bass slapophone. The sampled “generator” for the pan pipes is me blowing across 1 cm wide party straws with the end stopped, and the treble G flute is the one pictured. The clarinets are standard band issue, with range extended (with plumbing) and extrapolated (digitally shifted and formant-compensated).
 
 ♪	This is not technically a mono synth, but it is intended to be used like one -- one instance per voice if you want to stack chords or whatever.
 
@@ -36,3 +36,5 @@ This SFZ format package contains seven sampled instruments: pan pipes, plastic f
 ♪	Paper Lion (baritone windbreaker) range: G0 (extended)/C1 to C4.
 
 ♪	Magical Fruit (alto windbreaker) range: A1 to C5. Same hardware as Plastic Fruit, but used quite differently.
+
+♪	NEW! Slap Stick (bass slapophone) range: C0 to D3. 11 dynamic layers. Keys-optimized only, no Breath version.
